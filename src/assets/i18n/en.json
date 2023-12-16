@@ -1,11 +1,31 @@
 {
   "Components": {
     "Nav": {
-      "ChangeLanguageButtonEN": "English",
-      "ChangeLanguageButtonFR": "Français"
+      "Name": "Danny Ferguson",
+      "ChangeLanguageButton": "Français",
+      "Links": {
+        "About": "About",
+        "Projects": "Projects",
+        "Contact": "Contact"
+      }
+    },
+    "Footer": {
+      "Text1": "Built with ",
+      "Text2": "by someone with too much free time.",
+      "LinkText": "Source"
     }
   },
   "Pages": {
-
+    "Landing": {
+      "Intro": {
+        "Heading": "Hello there, I am Danny",
+        "Text1": "A Problem solver with over 9 years of experience working remotely. From my current occupation as a full-stack web developer to Linux system administration to running my own little businesses.",
+        "Text2": "I like to refer to myself as a problem solver rather than a developer because I do what needs to be done to solve the problem I'm facing or paid to. I'm more of a jack of all trades with a specialty in front-end development (not design) and Linux system administration.",
+        "Links": {
+          "MoreAboutMe": "More about me",
+          "Contact": "Contact"
+        }
+      }
+    }
   }
 }

@@ -1,5 +1,36 @@
 nav {
-  width: 100%;
+  width: 80%;
+  padding: 0 10%;
   height: 60px;
   background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+
+}
+
+.right {
+  display: flex;
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+
+    li + li {
+      margin-left: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:visited {
+      color: initial;
+    }
+  }
 }

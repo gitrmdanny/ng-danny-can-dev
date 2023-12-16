@@ -4,9 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --localize",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "build-translation-files": "ng extract-i18n --format json --output-path src/locale",
     "test": "ng test"
   },
   "private": true,

@@ -1,0 +1,38 @@
+.landing-container {
+  width: 100%;
+  margin-top: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.landing {
+  background-color: orange;
+  height: 300px;
+  width: 900px;
+  display: flex;
+
+  img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+.intro {
+  padding: 4%;
+
+  p + p {
+    margin-top: 20px;
+  }
+}
+
+.links {
+  margin-top: 20px;
+
+  a {
+
+  }
+
+  a + a {
+    margin-left: 20px;
+  }
+}

@@ -1,11 +1,31 @@
 {
   "Components": {
     "Nav": {
-      "ChangeLanguageButtonEN": "English",
-      "ChangeLanguageButtonFR": "Français"
+      "Name": "Danny Ferguson",
+      "ChangeLanguageButton": "English",
+      "Links": {
+        "About": "À propos",
+        "Projects": "Projets",
+        "Contact": "Contact"
+      }
+    },
+    "Footer": {
+      "Text1": "Conçu avec ",
+      "Text2": "par quelqu'un qui a trop de temps libre.",
+      "LinkText": "Source"
     }
   },
   "Pages": {
-
+    "Landing": {
+      "Intro": {
+        "Heading": "Bonjour, je suis Danny",
+        "Text1": "Un spécialiste en résolution de problèmes avec plus de 9 ans d'expérience de travail à distance. De mon métier actuel de développeur web à l'administration de systèmes Linux, à l'exploitation de mes propres petites entreprises.",
+        "Text2": "J'aime me considérer comme un spécialiste en résolution de problèmes plutôt que comme un développeur, car je fais ce qu'il faut pour résoudre le problème auquel je fais face ou pour lequel je suis payé. Je suis plutôt un homme à tout faire avec une spécialité dans le développement front-end (pas le design) et l'administration de systèmes Linux.",
+        "Links": {
+          "MoreAboutMe": "En savoir plus sur moi",
+          "Contact": "Contact"
+        }
+      }
+    }
   }
 }
