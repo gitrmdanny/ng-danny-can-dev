@@ -5,6 +5,7 @@ import {NavComponent} from "./components/nav/nav.component";
 import {FooterComponent} from "./components/footer/footer.component";
 import {TranslateService} from "@ngx-translate/core";
 import {LocalStorageService} from "./services/local-storage.service";
+import { inject } from '@vercel/analytics';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ export class AppComponent {
 
   constructor(private translate: TranslateService,
               private localStorageService: LocalStorageService) {
+    inject();
     this.initTranslations();
   }
 
