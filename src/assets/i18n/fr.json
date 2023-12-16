@@ -1,0 +1,11 @@
+{
+  "Components": {
+    "Nav": {
+      "ChangeLanguageButtonEN": "English",
+      "ChangeLanguageButtonFR": "Français"
+    }
+  },
+  "Pages": {
+
+  }
+}
