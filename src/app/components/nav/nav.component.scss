@@ -2,35 +2,67 @@ nav {
   width: 80%;
   padding: 0 10%;
   height: 60px;
-  background-color: red;
+  background-color: #c9e1f4;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 1200px) {
+    width: 95%;
+    padding: 0 2.5%;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2% 2.5%;
+    flex-direction: column;
+  }
 }
 
 .left {
-
+  h1 {
+    color: #575b5e;
+  }
 }
 
 .right {
   display: flex;
 
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+
+  }
+
   ul {
     list-style: none;
     display: flex;
+    align-items: center;
     margin-right: 20px;
+    row-gap: 10px;
+    column-gap: 20px;
 
-    li + li {
-      margin-left: 20px;
+    @media screen and (max-width: 576px) {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-right: 0;
+      flex-direction: column;
     }
 
     a {
       text-decoration: none;
-      color: white;
+      color: #575b5e;
     }
 
     a:visited {
-      color: initial;
+      color: #575b5e;
     }
+  }
+
+  button {
+    background-color: #50bdff;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
   }
 }
